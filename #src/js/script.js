@@ -1,1 +1,1 @@
-@@include('alert.js')
+@@include('first-script.js')

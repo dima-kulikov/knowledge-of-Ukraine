@@ -16,10 +16,25 @@ section {
   @media screen and (max-width: 720px) {
     font-size: 14px;
   }
-  li {
-    margin: 15px 0px;
+  .year__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .text-center {
     text-align: center;
+  }
+  .inline {
+    display: inline-block;
+  }
+  .year__flex__position {
+    margin-left: -20%;
+  }
+  .ansver-img {
+    width: 30px;
+    height: 30px;
+    // outline: 2px solid red;
+    background-position: center;
+    background-size: cover;
   }
 }
