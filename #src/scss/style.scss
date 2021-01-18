@@ -1,0 +1,25 @@
+@import "./helpers/normalize.scss";
+
+body {
+  background-color: #fffafa;
+  color: black;
+}
+
+section {
+  max-width: 600px;
+  padding: 15px;
+  margin: 40px auto;
+  border: 2px solid rgb(21, 87, 211);
+  font-size: 18px;
+  background-color: #fdfdfd;
+  box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+  @media screen and (max-width: 720px) {
+    font-size: 14px;
+  }
+  li {
+    margin: 15px 0px;
+  }
+  .text-center {
+    text-align: center;
+  }
+}
