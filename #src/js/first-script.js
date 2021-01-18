@@ -7,6 +7,9 @@ btn__year.onclick = function(){
     if(text == year){
       answer__year.innerText = "Верно";
       year__img.style.backgroundImage = 'url(./img/yes.png)'
+    }else if (text == "") {
+      answer__year.innerText = "Вы ничего не ввели";
+      // year__img.style.backgroundImage = 'url(./img/no.png)'
     }
     else if (text != parseInt(text)){
        answer__year.innerText = "Используйте только числа!";
