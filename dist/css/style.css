@@ -494,19 +494,17 @@ section .answer-text {
   margin-left: 30px;
 }
 
-.second_question::before {
-  content: '';
+.second_question {
   display: block;
-  height: 102%;
+  background-color: rgba(16, 87, 105, 0.95);
+  background-image: url(/img/z.png);
   position: absolute;
   width: 100%;
-  background-color: rgba(16, 87, 105, 0.95);
-  background-image: url(../img/z.png);
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  margin-left: -15px;
-  margin-top: -15px;
+  background-size: 53%;
+  margin: -15px 0px 0px -15px;
 }
 
 @media screen and (max-width: 720px) {
@@ -543,7 +541,7 @@ section .answer-text {
     margin: 10px auto 15px auto;
   }
 
-  .second_question::before {
+  .second_question {
     display: none;
   }
 }
