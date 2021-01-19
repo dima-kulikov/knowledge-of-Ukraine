@@ -39,13 +39,33 @@ section {
       margin-left: 0px;
     }
   }
+  }
+
   .ansver-img {
     width: 30px;
     height: 30px;
     background-position: center;
     background-size: cover;
     @media screen and (max-width: 720px) {
-      margin-top: 10px;
+      margin: 10px 0px;
+    }
+  }
+  .ansver-img-city{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 720px) {
+      margin: 10px 0px;
+    }
+  }
+  .ansver-img-countries{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 720px) {
+      margin: 10px 0px;
     }
   }
   .answer-text {
@@ -63,13 +83,11 @@ section {
     }
   }
   //  отвечает за вопрос какой год? ---конец!!!
-}
 
 .second_question {
   display: block;
   background-color: rgba(16, 87, 105, 0.95);
   background-image: url(../img/closed.png);
-
   position: absolute;
   width: 100%;
   height: 100%;
@@ -79,5 +97,28 @@ section {
   margin: -15px 0px 0px -15px;
   @media screen and (max-width: 720px) {
     display: none;
+  }
+}
+.second_question-1 {
+  display: block;
+  background-color: rgba(16, 87, 105, 0.95);
+  background-image: url(../img/closed.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 22%;
+  margin: -15px 0px 0px -15px;
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
+}
+.countries{
+  margin: 0px auto;
+  // width: 50%;
+  margin-bottom: 15px;
+  @media screen and (max-width: 720px) {
+    // width: 90%;
   }
 }
