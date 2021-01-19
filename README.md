@@ -1,3 +1,10 @@
+Просмотреть можно по ссылке:
+
+https://dima-kulikov.github.io/knowledge-of-Ukraine/dist/index.html
+
+-----------------------------------------------------------------------
+
+
 <img class="img" width="100%" src="gulp.png" alt="11" />
 
 <!-- ![Banner](./gulp.png) -->
