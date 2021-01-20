@@ -10,7 +10,15 @@
 
 <body>
   <section>
+    <div class="top">
+      <h1>Мини тест Украина</h1>
+      <p>Пройдите мини тест, на знание страны</p>
+      <button id="top__start">Начать</button>
+    </div>
+  </section>
+  <section>
     <!-- отвечает за вопрос какой год? -->
+    <div class="second_question-1"></div>
     <div class="question">
       <div class="question__flex">
         <p class="inline">Какой сейчас год?</p>
@@ -24,9 +32,14 @@
 
 
 
+  @@include('html/independence.html')
   @@include('html/second-question.html')
   @@include('html/third-question.html')
 
+  <div class="finish finish_bg">
+    <p class="finish__text">Поздравляем, все ответы верны !</p>
+    <button class="finish_btn" id="finish">Пройти еще раз</button>
+  </div>
 
   <script src="js/script.min.js"></script>
 </body>
