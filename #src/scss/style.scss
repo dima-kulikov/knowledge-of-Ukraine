@@ -19,6 +19,9 @@ section,
   @media screen and (max-width: 720px) {
     font-size: 16px;
   }
+  @media screen and (max-width: 650px) {
+    margin: 40px 10px;
+  }
   h1 {
     text-align: center;
   }
@@ -92,9 +95,6 @@ section,
   background-repeat: no-repeat;
   background-size: 22%;
   margin: -15px 0px 0px -15px;
-  @media screen and (max-width: 720px) {
-    display: none;
-  }
 }
 
 .countries {
@@ -116,8 +116,10 @@ section,
   left: 0;
   bottom: 0;
   right: 0;
+  position: fixed;
+  top: 10%;
   @media screen and (max-width: 720px) {
-    // width: 90%;
+    top: 30%;
   }
 }
 
