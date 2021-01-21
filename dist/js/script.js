@@ -2,7 +2,7 @@ let second_question_1 = document.querySelector('.second_question-1');
 let second_question_2 = document.querySelector('.second_question-2');
 let second_question_3 = document.querySelector('.second_question-3');
 let second_question_4 = document.querySelector('.second_question-4');
-
+let finish_backdrop = document.querySelector('.finish-backdrop'); 
 
 btn__year.onclick = function(){
   
@@ -116,12 +116,16 @@ btn__city.onclick = function(){
 btn__countries.onclick = function(){
     let selection = document.getElementById('country_selection').value;
 let img_countries =document.querySelector('.ansver-img-countries');
-let finish_bg = document.querySelector('.finish_bg'); 
+let finish_bg = document.querySelector('.finish_bg');
+let finish_backdrop = document.querySelector('.finish-backdrop');  
+
 
     if(document.getElementById('ua').checked){
         answer__countries.innerText = "Верно";
         img_countries.style.backgroundImage = 'url(./img/yes.png)';
+        finish_backdrop.style.display = "block";
         finish_bg.style.display = "block";
+        
     }else{
         answer__countries.innerText = "Ответ неправельный";
         img_countries.style.backgroundImage = 'url(./img/no.png)';

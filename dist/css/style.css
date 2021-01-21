@@ -560,6 +560,16 @@ section .question__flex__position {
   display: block;
 }
 
+.finish-backdrop {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background-image: url(../img/bg-2.jpg);
+  background-size: cover;
+}
+
 @media screen and (max-width: 720px) {
   section {
     font-size: 16px;

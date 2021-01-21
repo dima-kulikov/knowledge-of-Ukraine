@@ -2,7 +2,7 @@ let second_question_1 = document.querySelector('.second_question-1');
 let second_question_2 = document.querySelector('.second_question-2');
 let second_question_3 = document.querySelector('.second_question-3');
 let second_question_4 = document.querySelector('.second_question-4');
-
+let finish_backdrop = document.querySelector('.finish-backdrop'); 
 
 btn__year.onclick = function(){
   
