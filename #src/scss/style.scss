@@ -95,6 +95,15 @@ section,
   background-repeat: no-repeat;
   background-size: 22%;
   margin: -15px 0px 0px -15px;
+  @media screen and (max-width: 720px) {
+    background-size: 27%;
+  }
+  @media screen and (max-width: 620px) {
+    background-size: 30%;
+  }
+  @media screen and (max-width: 500px) {
+    background-size: 45%;
+  }
 }
 
 .countries {

@@ -608,6 +608,13 @@ section .question__flex__position,
     margin: 10px auto 15px auto;
   }
 
+  .second_question-1,
+  .second_question-2,
+  .second_question-3,
+  .second_question-4 {
+    background-size: 27%;
+  }
+
   .finish {
     top: 30%;
   }
@@ -617,5 +624,23 @@ section .question__flex__position,
   section,
   .finish {
     margin: 40px 10px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .second_question-1,
+  .second_question-2,
+  .second_question-3,
+  .second_question-4 {
+    background-size: 30%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .second_question-1,
+  .second_question-2,
+  .second_question-3,
+  .second_question-4 {
+    background-size: 45%;
   }
 }
