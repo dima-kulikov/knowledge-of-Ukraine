@@ -6,8 +6,7 @@ body {
   position: relative;
 }
 
-section,
-.finish {
+section {
   position: relative;
   max-width: 600px;
   padding: 15px;
@@ -144,6 +143,9 @@ section,
 }
 .finish_btn {
   color: blue;
-  margin: 100px auto 0px auto;
+  margin: 80px auto 0px auto;
   display: block;
+  @media screen and (max-width: 400px) {
+    margin: 50px auto 0px auto;
+  }
 }

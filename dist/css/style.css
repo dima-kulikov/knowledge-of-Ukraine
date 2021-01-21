@@ -448,8 +448,7 @@ body {
   position: relative;
 }
 
-section,
-.finish {
+section {
   position: relative;
   max-width: 600px;
   padding: 15px;
@@ -461,18 +460,15 @@ section,
           box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
 }
 
-section h1,
-.finish h1 {
+section h1 {
   text-align: center;
 }
 
-section .top,
-.finish .top {
+section .top {
   text-align: center;
 }
 
-section .question__flex,
-.finish .question__flex {
+section .question__flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -484,18 +480,15 @@ section .question__flex,
           align-items: center;
 }
 
-section .text-center,
-.finish .text-center {
+section .text-center {
   text-align: center;
 }
 
-section .inline,
-.finish .inline {
+section .inline {
   display: inline-block;
 }
 
-section .question__flex__position,
-.finish .question__flex__position {
+section .question__flex__position {
   margin-left: -20%;
 }
 
@@ -563,18 +556,16 @@ section .question__flex__position,
 
 .finish_btn {
   color: blue;
-  margin: 100px auto 0px auto;
+  margin: 80px auto 0px auto;
   display: block;
 }
 
 @media screen and (max-width: 720px) {
-  section,
-  .finish {
+  section {
     font-size: 16px;
   }
 
-  section .question__flex,
-  .finish .question__flex {
+  section .question__flex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -584,8 +575,7 @@ section .question__flex__position,
             justify-content: center;
   }
 
-  section .question__flex__position,
-  .finish .question__flex__position {
+  section .question__flex__position {
     margin-left: 0px;
   }
 
@@ -621,8 +611,7 @@ section .question__flex__position,
 }
 
 @media screen and (max-width: 650px) {
-  section,
-  .finish {
+  section {
     margin: 40px 10px;
   }
 }
@@ -642,5 +631,11 @@ section .question__flex__position,
   .second_question-3,
   .second_question-4 {
     background-size: 45%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .finish_btn {
+    margin: 50px auto 0px auto;
   }
 }
